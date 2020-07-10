@@ -1,20 +1,23 @@
 [submodule "FV3"]
 	path = FV3
-	url = https://github.com/NOAA-EMC/fv3atm
-	branch = production/GFS.v16
+	url = https://github.com/AlexBelochitski-NOAA/fv3atm
+	ignore=untracked
 [submodule "NEMS"]
 	path = NEMS
 	url = https://github.com/NOAA-EMC/NEMS
 	branch = production/GFS.v16
+	ignore=untracked
 [submodule "FMS"]
 	path = FMS
 	url = https://github.com/NOAA-GFDL/FMS
 	branch = master
+	ignore=untracked
 [submodule "WW3"]
 	path = WW3
 	url = https://github.com/NOAA-EMC/WW3
 	branch = production/GFS.v16
+	ignore=untracked
 [submodule "stochastic_physics"]
 	path = stochastic_physics
 	url = https://github.com/noaa-psd/stochastic_physics
-
+	ignore=untracked
